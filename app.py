@@ -261,8 +261,7 @@ def configuration_content():
     st.subheader("Configuration")
 
     # Input fields for API key and model name
-    # api_key_input = st.text_input("OpenAI API Key", value=st.session_state['openai_api_key'], type="password")
-    api_key_input = st.text_input("OpenAI API Key", value=st.session_state[sk-OsMMq65tXdfOIlTUYtocSL7NCsmA7CerN77OkEv29dODg1EA], type="password")
+    api_key_input = st.text_input("OpenAI API Key", value=st.session_state['openai_api_key'], type="password")
     model_options = ["gpt-4o", "gpt-4o-mini", "gpt-4", "gpt-3.5-turbo"]
     model_name_input = st.selectbox("OpenAI Model Name", options=model_options, index=model_options.index(st.session_state['gpt_model']) if st.session_state['gpt_model'] in model_options else 0)
     def save_configuration():
