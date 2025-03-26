@@ -1,0 +1,2 @@
+export OPENAI_API_KEY="sk-OsMMq65tXdfOIlTUYtocSL7NCsmA7CerN77OkEv29dODg1EA"
+export GPT_MODEL='gpt-4o-mini’
