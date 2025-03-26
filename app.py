@@ -18,6 +18,8 @@ load_dotenv()
 config = AutoConfig()
 data_directory = os.path.join(os.path.dirname(__file__), "data")
 
+OPENAI_API_KEY = "sk-OsMMq65tXdfOIlTUYtocSL7NCsmA7CerN77OkEv29dODg1EA"
+GPT_MODEL="gpt-4o-mini"
 
 # Initialize session states
 if 'history' not in st.session_state:
