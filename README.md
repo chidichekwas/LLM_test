@@ -36,5 +36,5 @@ To remove the environment when done:
 conda remove --name csv_analysis_env --all
 ```
 
-OPENAI_API_KEY=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
+OPENAI_API_KEY=
 GPT_MODEL="GPT-4o"
